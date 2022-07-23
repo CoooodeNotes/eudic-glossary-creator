@@ -12,7 +12,7 @@ import pandas as pd
 
 parser = argparse.ArgumentParser(description="Clean word list")
 # parser.add_argument("-f", "--file", default="raw/仙听为快雅思热词.txt", help="input file")
-parser.add_argument("-f", "--file", default="raw/替换.txt", help="input file")
+parser.add_argument("-f", "--file", default="raw/场景词汇.txt", help="input file")
 
 
 args = parser.parse_args()
